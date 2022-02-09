@@ -1,0 +1,28 @@
+.btn {
+  &.btn-outlined {
+    border: 1px solid $gray-200;
+    padding-right: $btn-padding-y + 60px;
+    position: relative;
+
+    &:after {
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      display: inline-block;
+      font-style: normal;
+      font-variant: normal;
+      text-rendering: auto;
+      line-height: 1;
+      content: "\f054";
+      font-family: "Font Awesome 5 Free";
+      width: 60px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      border-left: 1px solid $gray-200;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

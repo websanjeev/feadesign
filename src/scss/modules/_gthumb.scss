@@ -1,0 +1,14 @@
+.gthumb {
+  width: 268px;
+
+  .gthumb-img {
+    margin-bottom: 16px;
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .gthumb-title {
+    line-height: 1.4;
+  }
+}

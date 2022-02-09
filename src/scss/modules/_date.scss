@@ -1,0 +1,17 @@
+.date {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: $secondary;
+}
+
+@include media-breakpoint-up(md) {
+  .date {
+    font-size: $font-size-sm;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .date {
+    font-size: $font-size-sm-xs;
+  }
+}

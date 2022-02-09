@@ -1,0 +1,32 @@
+#main-header {
+  display: flex;
+  align-items: center;
+}
+
+@include media-breakpoint-up(lg) {
+  #main-header {
+    .logo {
+      max-width: 148px;
+    }
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  #main-header {
+    .logo {
+      max-width: 106px;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  #main-header {
+    margin-bottom: 77px;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  #main-header {
+    margin-bottom: 56px;
+  }
+}

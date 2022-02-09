@@ -1,0 +1,33 @@
+@include media-breakpoint-down(md) {
+  h1 {
+    font-size: $h1-font-size-xs;
+  }
+  h2 {
+    font-size: $h2-font-size-xs;
+  }
+  h3 {
+    font-size: $h3-font-size-xs;
+  }
+  h4 {
+    font-size: $h4-font-size-xs;
+  }
+  h5 {
+    font-size: $h5-font-size-xs;
+  }
+
+  .fs-1 {
+    font-size: $h1-font-size-xs !important;
+  }
+  .fs-2 {
+    font-size: $h2-font-size-xs !important;
+  }
+  .fs-3 {
+    font-size: $h3-font-size-xs !important;
+  }
+  .fs-4 {
+    font-size: $h4-font-size-xs !important;
+  }
+  .fs-5 {
+    font-size: $h5-font-size-xs !important;
+  }
+}

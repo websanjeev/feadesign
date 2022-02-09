@@ -1,0 +1,16 @@
+#top-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@include media-breakpoint-down(md) {
+  #top-header {
+    padding: 20px 0;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  #top-header {
+    padding: 22px 0;
+  }
+}

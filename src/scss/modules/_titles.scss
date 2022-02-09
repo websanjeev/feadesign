@@ -1,0 +1,24 @@
+.title {
+  font-family: $font-family-serif;
+
+  &.title-primary {
+    color: $primary;
+  }
+}
+
+.title-1 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@include media-breakpoint-down(md) {
+  .title-1 {
+    font-size: $h5-font-size-xs;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .title-1 {
+    font-size: $h4-font-size;
+  }
+}

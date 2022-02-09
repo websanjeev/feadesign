@@ -1,0 +1,43 @@
+.blog-thumb {
+  border: 1px solid $white;
+
+  &.blog-thumb-light {
+    border-color: $gray-100;
+  }
+
+  .blog-thumb-img {
+    margin-bottom: 20px;
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .blog-thumb-date {
+    margin-bottom: 20px;
+  }
+
+  .blog-thumb-title {
+    line-height: 1.2;
+  }
+
+  a {
+    color: $body-color;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .blog-thumb {
+    padding: 16px;
+    width: 256px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .blog-thumb {
+    padding: 40px;
+  }
+}

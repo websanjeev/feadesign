@@ -1,0 +1,28 @@
+.social-links {
+  display: flex;
+  .social-links-item {
+    color: $secondary;
+    line-height: 1;
+    display: inline-block;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .social-links {
+    .social-links-item {
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .social-links {
+    .social-links-item {
+      &:not(:last-child) {
+        margin-right: 32px;
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+.divider {
+  margin: 20px 0;
+  &.divider-dark {
+    border-bottom: 1px solid rgba($white, 0.3);
+  }
+}
